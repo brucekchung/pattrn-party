@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+ul li {
+  display: inline-block;
+  border: 1px solid black;
+  margin: 0 10px 0 10px;
+  padding: 5px;
+  border-radius: 5px 5px 0 0;
+}
+
+ul {
+  border: 1px solid black;
+  margin: 0 auto;
+  width: 80%;
+  background: lightblue;
+  position: relative;
+}
+
+.content {
+  border: 1px solid black;
+  width: 80%;
+  height: 200px;
+  display: none;
+}
+
+
+.active {
+  display: block;
+}
+
+.flexible-cards {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.card {
+  margin: 10px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.row {
+  display: flex;
+}
+
+.double {
+  width: 64%;
+}
+
+.single {
+  width: 32%;
+}
+
+.text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 50px;
+  border: 1px solid black;
+}
+
+.text {
+  border-bottom: 1px solid black;
+  background: gray;
+}
+
