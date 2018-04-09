@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-ul li {
+.accordion ul li {
   display: inline-block;
   border: 1px solid black;
   margin: 0 10px 0 10px;
@@ -10,7 +10,7 @@ ul li {
   border-radius: 5px 5px 0 0;
 }
 
-ul {
+.accordion ul {
   border: 1px solid black;
   margin: 0 auto;
   width: 80%;
@@ -18,7 +18,7 @@ ul {
   position: relative;
 }
 
-.content {
+.accordion .content {
   border: 1px solid black;
   width: 80%;
   height: 200px;
@@ -26,7 +26,7 @@ ul {
 }
 
 
-.active {
+.accordion .active {
   display: block;
 }
 
@@ -67,5 +67,37 @@ ul {
 .text {
   border-bottom: 1px solid black;
   background: gray;
+}
+
+.header {
+  margin-top: 50px;
+  background: #BDC3C7;
+}
+
+.header nav {
+  border: 1px solid black;
+}
+
+.header ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.header nav li {
+  display: inline-block;
+}
+
+.header .circle {
+  border-radius: 50%;
+  border: 1px solid black;
+  height: 30px;
+  width: 30px;
+  background: white;
+}
+
+.header input {
+  font-size: 1.3em;
 }
 
