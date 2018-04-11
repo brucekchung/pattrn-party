@@ -2,32 +2,48 @@
   box-sizing: border-box;
 }
 
-.accordion ul li {
-  display: inline-block;
-  border: 1px solid black;
-  margin: 0 10px 0 10px;
-  padding: 5px;
-  border-radius: 5px 5px 0 0;
+.accordion {
+  width: 90%;
+  margin : 0 auto;
 }
 
-.accordion ul {
+.tabs {
   border: 1px solid black;
-  margin: 0 auto;
-  width: 80%;
-  background: lightblue;
-  position: relative;
+  border-bottom: none;
+  display: flex;
 }
 
-.accordion .content {
-  border: 1px solid black;
-  width: 80%;
-  height: 200px;
-  display: none;
+.tabs div {
+  border: 1px solid white; 
+  width: 25%;
+  background: grey;
+  text-align: center;
 }
 
+.tabs .active {
+  background: white;
+  border-bottom: none;
+}
 
-.accordion .active {
-  display: block;
+.content {
+  height: 400px;
+  border: 1px solid black;
+  border-top: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.image-box {
+  height: 90%;
+  width: 25%;
+  background: grey;
+}
+
+.text-box {
+  border: 1px solid black;
+  width: 65%;
+  height: 90%;
 }
 
 .flexible-cards {
