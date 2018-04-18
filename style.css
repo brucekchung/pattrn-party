@@ -30,12 +30,12 @@ header h2 {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin: 40px 0;
+  margin: 50px 0;
 }
 
 .collapse {
   height: 0px;
-  width: 70%;
+  width: 75%;
   border-top: 2px solid #D1D2D3;
   margin: 5px;
   display: inline-block
@@ -43,6 +43,16 @@ header h2 {
 
 h2 {
   display: inline-block;
+}
+
+.view-code {
+  width: 300px;
+  font-size: 1.3em;
+  padding: 10px;
+  color: #F2F2F2;
+  background: #2F2235;
+  margin: 60px auto;
+  display: block;
 }
 
 .accordion {
@@ -58,6 +68,8 @@ h2 {
 
 .tabs div {
   border: 1px solid white; 
+  padding: 7px;
+  height: 40px;
   width: 25%;
   background: grey;
   text-align: center;
@@ -93,27 +105,25 @@ h2 {
 
 .flexible-cards {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   width: 85%;
   margin: 0 auto;
 }
 
 .card {
-  margin: 10px;
+  margin: 1%;
   height: 200px;
   border: 1px solid black;
 }
 
-.row {
-  display: flex;
-}
-
 .double {
-  width: 64%;
+  flex-grow: 2;
+  flex-basis: 62%;
 }
 
 .single {
-  width: 32%;
+  flex-grow: 1;
+  flex-basis: 30%;
 }
 
 .text {
