@@ -1,9 +1,52 @@
 * {
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif; 
+}
+
+header {
+  background: #3F3244;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+header h4 {
+  color: #F2F2F2;
+  float: right;
+  display: inline-block;
+  margin-right: 40px;
+}
+
+header h2 span {
+  color: #34D1D1;
+}
+
+header h2 {
+  display: inline-block;
+  color: #F2F2F2;
+  margin-left: 40px;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+
+.collapse {
+  height: 0px;
+  width: 70%;
+  border-top: 2px solid #D1D2D3;
+  margin: 5px;
+  display: inline-block
+}
+
+h2 {
+  display: inline-block;
 }
 
 .accordion {
-  width: 90%;
+  width: 85%;
   margin : 0 auto;
 }
 
@@ -51,9 +94,8 @@
 .flexible-cards {
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 85%;
   margin: 0 auto;
-  margin-top: 100px;
 }
 
 .card {
@@ -88,8 +130,9 @@
 }
 
 .header {
-  margin-top: 50px;
   background: #BDC3C7;
+  margin: 0 auto;
+  width: 85%;
 }
 
 .header nav {
@@ -121,6 +164,14 @@
 
 
 @media screen and (max-width: 1100px) {
-  
+  .row {
+    flex-direction: column;
+  }
+
+  .single,
+  .double {
+    width: 100%;
+    margin: 0;
+  }
 
 }
