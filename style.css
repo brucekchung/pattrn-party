@@ -188,4 +188,13 @@ h2 {
     display: none;
   }
 
+  .header ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header li {
+    border: 1px solid black;
+    width: 100%;
+  }
 }
